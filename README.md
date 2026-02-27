@@ -20,12 +20,12 @@ MindfulAI is an intelligent mental health assistance platform designed to suppor
 
 
 🛠️ Tech Stack
-Backend: FastAPI (Python)
-Database: MySQL (SQLModel ORM)
-Machine Learning: Hugging Face Transformer - cardiffnlp/twitter-roberta-base-sentiment ( NLP ), Scikit-learn (KModes), NumPy, Pandas
-OpenRouter API LLM: mistralai/mistral-7b-instruct
-Frontend: HTML, CSS, JavaScript
-APIs: Custom endpoints for diary logging, chatbot interaction, and recommendation retrieval
+1.Backend: FastAPI (Python)
+2.Database: MySQL (SQLModel ORM)
+3.Machine Learning: Hugging Face Transformer - cardiffnlp/twitter-roberta-base-sentiment ( NLP ), Scikit-learn (KModes), NumPy, Pandas
+4.OpenRouter API LLM: mistralai/mistral-7b-instruct
+5.Frontend: HTML, CSS, JavaScript
+6.APIs: Custom endpoints for diary logging, chatbot interaction, and recommendation retrieval
 
 
 ⚡ How It Works
