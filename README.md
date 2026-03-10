@@ -1,45 +1,176 @@
-MindfulAI – Your AI-powered Mental Health Companion
-MindfulAI is an intelligent mental health assistance platform designed to support users in monitoring their emotional well-being. By leveraging AI, sentiment analysis, and psychometric profiling, MindfulAI provides personalized insights, recommendations, and a conversational companion to improve mental health outcomes.
+# 🧠 MindfulAI – AI-Powered Mental Health Companion
 
-🌟 Features
-1. AI Chatbot for Emotional Support
-2. Provides empathetic, conversational responses using LLM.
-3. Helps users to engage in conversations with an AI chatbot trained to respond to mood and emotional states.
-4. Diary-Based Sentiment Analysis
-5. Users can write journal entries.
-6. The system analyzes sentiment int the text as positive, neutral, or negative using Hugging Face transformer to track emotional trends over time.
-7. Psychometric Profiling based on a questionnare.
-8. Uses the Big Five Personality Test dataset.
-9. Applies K-Prototypes clustering to group users into different personality clusters.
-10.Personalized Recommendations
-11.Combines sentiment + psychometric score to generate mental health insights.
-12.Suggests activities, resources, and coping strategies based on mood trends and psychometric profile.
-13.Secure User Authentication
-14.Login, signup, session handling
-15.Stores user-specific data for personalized tracking. and ensures confidentiality of user data.
+MindfulAI is an intelligent mental health assistance platform designed to support users in monitoring and improving their emotional well-being.  
 
+By combining **Artificial Intelligence, Sentiment Analysis, and Psychometric Profiling**, MindfulAI provides users with personalized insights, emotional support, and mental health recommendations.
 
-🛠️ Tech Stack
-1.Backend: FastAPI (Python)
-2.Database: MySQL (SQLModel ORM)
-3.Machine Learning: Hugging Face Transformer - cardiffnlp/twitter-roberta-base-sentiment ( NLP ), Scikit-learn (KModes), NumPy, Pandas
-4.OpenRouter API LLM: mistralai/mistral-7b-instruct
-5.Frontend: HTML, CSS, JavaScript
-6.APIs: Custom endpoints for diary logging, chatbot interaction, and recommendation retrieval
+The platform acts as a **24/7 AI companion** that helps users understand their emotions, track mood patterns, and receive personalized coping strategies.
 
+---
 
-⚡ How It Works
-User Signup/Login – Secure authentication to manage personal data.
-Chatbot Interaction – Users can converse with the AI, which detects sentiment in real-time.
-Diary Entries – Daily logs are analyzed for sentiment and emotional trends.
-Psychometric Assessment – Personality quiz and clustering classify users into mental health profiles.
-Recommendations – Tailored suggestions are generated based on mood trends and psychometric results.
+# 🌟 Features
 
+## 🤖 AI Chatbot for Emotional Support
+- AI-powered conversational chatbot.
+- Generates empathetic responses using **LLM (Large Language Model)**.
+- Detects emotional tone during conversations.
+- Helps users discuss feelings, stress, and daily challenges.
 
+---
 
-✨ Key Benefits
-1. 24/7 emotional support
-2. Privacy-first design
-3. Personalized insights
-4. Simple and intuitive interface
-5. Improves awareness of emotional patterns
+## 📓 Diary-Based Sentiment Analysis
+- Users can write **daily journal entries**.
+- Sentiment analysis classifies entries as:
+  - Positive
+  - Neutral
+  - Negative
+- Uses **Hugging Face Transformer model** to detect emotional patterns.
+- Tracks emotional trends over time.
+
+---
+
+## 🧠 Psychometric Personality Profiling
+- Uses **Big Five Personality Test dataset**.
+- Users complete a personality questionnaire.
+- Applies **K-Prototypes clustering algorithm** to group users into personality clusters.
+- Helps understand behavioral patterns and personality traits.
+
+---
+
+## 🎯 Personalized Mental Health Recommendations
+MindfulAI generates personalized suggestions by combining:
+
+- Sentiment trends from diary entries
+- Personality cluster results
+
+Examples of recommendations include:
+
+- Stress relief activities
+- Mindfulness exercises
+- Emotional coping strategies
+- Mental wellness resources
+
+---
+
+## 🔐 Secure User Authentication
+- Secure user **Signup & Login**
+- Session management
+- Stores user-specific data securely
+- Ensures **privacy and confidentiality**
+
+---
+
+# ⚙️ Tech Stack
+
+### Backend
+- FastAPI (Python)
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+
+### Machine Learning
+- Hugging Face Transformers
+- Scikit-learn
+- KModes (K-Prototypes Clustering)
+- NumPy
+- Pandas
+
+### LLM Integration
+- OpenRouter API
+- mistralai/mistral-7b-instruct
+
+### Database
+- MySQL
+- SQLModel ORM
+
+---
+
+# 🚀 How It Works
+
+1️⃣ **User Signup / Login**  
+Users create an account and securely log in.
+
+2️⃣ **AI Chat Interaction**  
+Users can talk to the AI chatbot for emotional support.
+
+3️⃣ **Diary Logging**  
+Users write daily journal entries which are analyzed for sentiment.
+
+4️⃣ **Psychometric Assessment**  
+Users complete a personality questionnaire.
+
+5️⃣ **Recommendation Engine**  
+The system combines mood trends and personality profiles to generate personalized recommendations.
+
+---
+
+## 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/MindfulAI.git
+cd MindfulAI
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the FastAPI server
+
+```bash
+uvicorn main:app --reload
+```
+
+Open in browser
+
+```
+http://localhost:8000
+```
+
+---
+
+# 📡 API Endpoints
+
+| Endpoint | Description |
+|--------|-------------|
+| `/signup` | User registration |
+| `/login` | User authentication |
+| `/chat` | AI chatbot interaction |
+| `/diary` | Save journal entries |
+| `/sentiment` | Sentiment analysis |
+| `/recommendations` | Personalized suggestions |
+
+---
+
+# ✨ Key Benefits
+
+✔ 24/7 emotional support  
+✔ AI-driven mood analysis  
+✔ Personalized mental health insights  
+✔ Privacy-first design  
+✔ Simple and intuitive interface  
+
+---
+
+# 🔮 Future Improvements
+
+- Mobile application  
+- Voice-based emotion detection  
+- Mental health progress dashboard  
+- Therapist consultation integration  
+- Advanced emotion detection models  
+
+---
+
+# 👩‍💻 Author
+
+**Shreya Bangera**  
+
+Final Year – Information Science Engineering  
+AI & Full Stack Developer
